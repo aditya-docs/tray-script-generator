@@ -1,0 +1,86 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-background: #f7f7f9;
+  --theme-on-background: hsl(0, 0%, 5%);
+}
+
+body {
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--theme-background);
+  color: var(--theme-on-background);
+}
+
+.row {
+  max-width: 225%;
+  margin: 1.5% 0;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: white;
+  color: #4a54f5;
+  border: 2px solid #4a54f5;
+  font-weight: bold;
+}
+
+button:hover {
+  color: white;
+  background: #4a54f5;
+}
+
+button[type="submit"][disabled] {
+  color: white;
+  background: #8994f9;
+  border: none;
+}
+
+.copy-button {
+  position: absolute;
+  top: 4rem;
+  right: 0.5rem;
+  padding: 4px;
+  z-index: 1;
+  border-radius: 20%;
+}
+
+.error-message {
+  color: red;
+}
+
+.codeblocks-container {
+  display: flex;
+  gap: 25px;
+}
+
+.codeblocks-container div {
+  flex-grow: 1;
+}
+
+.w-tc-editor {
+  border: 2px solid black;
+}
+
+.context-box {
+  width: 100%;
+  height: 100px;
+  font-family: inherit;
+  font-size: medium;
+  padding: 10px;
+}
+
+.codeblock {
+  position: relative;
+  min-width: 40%;
+}
+
+.buttonMargin {
+  margin-top: 10px;
+}

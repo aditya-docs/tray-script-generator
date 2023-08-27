@@ -1,0 +1,30 @@
+{
+  "name": "tray-script-generator",
+  "version": "1.0.0",
+  "description": "Generating Tray.io script snippets using OpenAI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aditya-docs/tray-script-generator"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aditya-docs/tray-script-generator/issues"
+  },
+  "homepage": "https://github.com/aditya-docs/tray-script-generator#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
